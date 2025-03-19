@@ -1,0 +1,496 @@
+@import url("https://fonts.googleapis.com/css?family=Salsa:400|Inter:400|Nova+Flat:400|Proza+Libre:400|Sahitya:400|Amatic+SC:400");
+
+body{
+    background-image: url("Background\ full.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+label{
+    display: none;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #2C3259;
+    border-style: solid;
+    border-color: #2493A2;
+    border-width: 3px;
+    border-radius: 15px;
+    margin: 2%;
+    font-size: 20px;
+    width: 95%;
+    z-index: 1000;
+}
+
+.left-menu{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+.menu-title{
+    padding: 15px 4%;
+    color: #E6DABA;
+    border-width: 1px;
+    border-style: solid;
+    border-color:#2493A2;
+    border-top: #2493A2;
+    border-bottom: #2493A2;
+    border-left: #2493A2;
+    font-family: "Amatic SC";
+    text-decoration: underline 1px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.menu-item{
+    padding: 15px 4%;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#2493A2;
+    border-top: #2493A2;
+    border-bottom: #2493A2;
+    border-left: #2493A2;
+    font-family: "Sahitya";
+}
+
+.menu-item a{
+    color: #DCB13C;
+    width: 100%;
+}
+
+.menu-item:hover{
+    background-color: rgba(72, 145, 155, 0.5);
+}
+
+a{
+    text-decoration: none;
+}
+
+.right-menu{
+    padding: 18px 2%;
+    text-align: right;
+    width: 10%;
+    font-family: "Proza Libre";
+}
+
+.right-menu a{
+    color: #E6DABA;
+}
+
+.right-menu a:hover{
+    text-decoration: underline;
+}
+
+.line1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.trailer img{
+    width: 55%;
+    height: auto;
+    padding-left: 2%;
+    object-fit: cover;
+    position: absolute;
+    z-index: 1;
+}
+
+.trailer video{
+    width: 40%;
+    height: auto;
+    position: absolute;
+    margin-left: 9%;
+    margin-top: 8%;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    z-index: 1;
+}
+
+.play{
+    display: flex;
+    flex-direction: column;
+    width: 43%;
+    /* justify-content: space-between; */
+}
+
+.title{
+    font-size: 8vw;
+    color: #E6DABA;
+    font-family: "Amatic SC";
+    font-weight: bold;
+    margin: 15% 15% 10% 15%;
+    text-align: center;
+}
+
+.date{
+    font-size: 3vw;
+    color: #E8B939;
+    margin: 0 27%;
+    font-family: "Proza Libre";
+    text-align: center;
+}
+
+.wishlist img{
+    position: absolute;
+    width: 22%;
+    margin: 0 10%;
+    z-index: 1;
+}
+
+.wishlist p{
+    font-size: 2.5vw;
+    position: absolute;
+    margin: 1.5% 13%;
+    font-family: "Nova Flat";
+    color:#2C3259;
+    z-index: 1;
+}
+
+.platform{
+    display: flex;
+    flex-direction: row;
+    margin-top: 17%;
+    margin-left: 25%;
+    margin-right: 25%;
+    justify-content: space-between;
+}
+
+.platform img{
+    width: 20%;
+}
+
+.platform img:hover{
+    border-style: solid;
+    border-color: wheat;
+    border-radius: 19px;
+    border-width: 2px;
+}
+
+.line2{
+    display: flex;
+    flex-direction: row;
+}
+
+.line3{
+    display: flex;
+    flex-direction: row;
+}
+
+.line4{
+    display: flex;
+    flex-direction: row;
+}
+
+.featuretext{
+    width: 42%;
+    color: #ECD0A8;
+    margin-left: 5%;
+    margin-top: 5%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.featuretitle{
+    color: #DCB13C;
+    text-align: center;
+    font-family: "Salsa";
+    font-size: 3vw;
+    margin: 5% 0;
+}
+
+.featuredesc{
+    text-align: justify;
+    margin: 0 5% 5% 5%;
+    font-family: "Inter";
+    font-size: 1.4vw;
+}
+
+.featureimg{
+    width: 50%;
+}
+
+.featureimg img{
+    width: 80%;
+    padding: 14% 10% 0 15%;
+}
+
+.line3 .featuretext{
+    margin-left: 3%;
+    margin-top: 6%;
+}
+
+.line3 .featureimg img{
+    padding-left: 15%;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+}
+
+.footeritems{
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footertext{
+    color: #DCB13C;
+    font-family: "Sahitya";
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-top: 0;
+}
+
+.footertitle{
+    color:#E6DABA;
+    font-family: "Nova Flat";
+    width: 100%;
+    font-size: 3vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-decoration: underline;
+}
+
+.footercopy{
+    font-size: 1.5vw;
+    margin: 0;
+    padding-top: 5%;
+}
+
+.footerright{
+    font-size: 1vw;
+    margin: 0;
+}
+
+footer img{
+    width: 20%;
+}
+
+@media only screen and (max-width: 768px){
+    header{
+        display: none;
+    }
+
+    label{
+        display: block;
+    }
+    
+    label .menu {
+        position: fixed;
+        z-index: 100;
+        margin: 3%;
+        width: 11.5%;
+        height: 9%;
+        background: #2C3259;
+        border-radius: 10px;
+        -webkit-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+        box-shadow: 0 0 0 0 #2C3259, 0 0 0 0 #2C3259;
+        cursor: pointer;
+        border-style: solid;
+        border-color: #69D2e7;
+    }
+      
+    label .hamburger {
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        width: 40%;
+        height: 2px;
+        background: #69D2e7;
+        display: block;
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+    }
+      
+    label .hamburger:after, label .hamburger:before {
+        -webkit-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+        content: "";
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: #69d2e7;
+    }
+      
+    label .hamburger:before{ 
+        top: -10px; 
+    }
+      
+    label .hamburger:after{ 
+        bottom: -10px; 
+    }
+    
+    label input{ 
+        display: none; 
+    }
+
+    label input:default + .menu{
+        background-color: black;
+        color: black;
+    }
+      
+    label input:checked + .menu {
+        box-shadow: 0 0 0 100vw #2C3259, 0 0 0 100vh #2C3259;
+        border-radius: 0;
+    }
+      
+    label input:checked + .menu .hamburger {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+      
+    label input:checked + .menu .hamburger:after {
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+        bottom: 0;
+    }
+      
+    label input:checked + .menu .hamburger:before {
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+        top: 0;    
+    }
+
+    label ul{
+        display: none;
+    }
+
+    label input:checked + .menu + ul{ 
+        opacity: 1;
+        display: block;
+    }
+
+    label ul{
+        z-index: 200;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        -webkit-transition: .25s 0s ease-in-out;
+        transition: .25s 0s ease-in-out;
+        list-style: none;
+        text-align: center;
+    }
+
+    label p{
+        color: #E8B939;
+        font-family: "Salsa";
+        font-size: 7vw;
+        text-decoration: underline;
+        margin: 0;
+    }
+
+    label a{
+        margin-bottom: 10%;
+        display: block;
+        color: #ECD0A8;
+        text-decoration: none;
+        font-size: 5vw;
+        font-family: "Sahitya";
+        cursor: default;
+    }
+
+    label a:hover{
+        text-decoration: underline;
+    }
+
+    .space{
+        display: none;
+    }
+
+    .line1{
+        flex-direction: column-reverse;
+        margin-left: 3%;
+    }
+
+    .title{
+        font-size: 8vw;
+    }
+
+    .play{
+        margin-left: 27%;
+    }
+
+    .trailer img{
+        width: 80%;
+        margin-left: 5%;
+    }
+
+    .trailer video{
+        width: 60%;
+        margin-left: 15%;
+        margin-top: 10%;
+    }
+
+    .line2{
+        margin-top: 50%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .line3{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .line4{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .line3 .featureimg img{
+        padding-left: 15%;
+    }
+
+    .featureimg{
+        margin-left: 7%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+
+    .featuretext{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .line3 .featuretext{
+        margin-left: 10%;
+    }
+
+    .featuredesc{
+        font-size: 2vw;
+    }
+
+    .featuretitle{
+        font-size: 6vw;
+    }
+}
+
